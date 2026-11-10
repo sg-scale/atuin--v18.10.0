@@ -44,7 +44,7 @@ tower = "0.5"
 tracing = "0.1"
 sql-builder = "3"
 tempfile = { version = "3.19" }
-minijinja = "2.9.0"
+minijinja = "3.0.5"
 
 [workspace.dependencies.tracing-subscriber]
 version = "0.3"
