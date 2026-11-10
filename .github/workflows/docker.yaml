@@ -38,7 +38,7 @@ jobs:
 
       - name: Release build
         id: release_build
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           outputs: "type=registry,push=true"
           platforms: linux/amd64
@@ -84,7 +84,7 @@ jobs:
 
       - name: Release build
         id: release_build
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           outputs: "type=registry,push=true"
           platforms: linux/arm64
